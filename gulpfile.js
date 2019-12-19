@@ -116,16 +116,39 @@ function js() {
     .pipe(browsersync.stream());
 }
 
+function images() {
+  return gulp
+    .src("./img/*")
+    .pipe(newer("./_site/img"))
+    .pipe(
+      imagemin([
+        imagemin.gifsicle({ interlaced: true }),
+        imagemin.jpegtran({ progressive: true }),
+        imagemin.optipng({ optimizationLevel: 5 }),
+        imagemin.svgo({
+          plugins: [
+            {
+              removeViewBox: false,
+              collapseGroups: true
+            }
+          ]
+        })
+      ])
+    )
+    .pipe(gulp.dest("./_site/assets/img"));
+}
+
 // Watch files
 function watchFiles() {
   gulp.watch("./scss/**/*", css);
   gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
   gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch("./img/*", images);
 }
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
-const build = gulp.series(vendor, gulp.parallel(css, js));
+const build = gulp.series(vendor, gulp.parallel(css, js, images));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
 // Export tasks

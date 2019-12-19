@@ -118,24 +118,9 @@ function js() {
 
 function images() {
   return gulp
-    .src("./img/*")
-    .pipe(newer("./_site/img"))
-    .pipe(
-      imagemin([
-        imagemin.gifsicle({ interlaced: true }),
-        imagemin.jpegtran({ progressive: true }),
-        imagemin.optipng({ optimizationLevel: 5 }),
-        imagemin.svgo({
-          plugins: [
-            {
-              removeViewBox: false,
-              collapseGroups: true
-            }
-          ]
-        })
-      ])
-    )
-    .pipe(gulp.dest("./_site/img"));
+    .src("./img/**/*")
+    .pipe(gulp.dest("./_site/img"))
+    .pipe(browsersync.stream());
 }
 
 // Watch files

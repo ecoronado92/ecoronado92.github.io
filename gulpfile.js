@@ -135,7 +135,7 @@ function images() {
         })
       ])
     )
-    .pipe(gulp.dest("./_site/assets/img"));
+    .pipe(gulp.dest("./_site/img"));
 }
 
 // Watch files

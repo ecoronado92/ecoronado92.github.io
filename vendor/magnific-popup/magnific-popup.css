@@ -249,7 +249,7 @@ img.mfp-img {
   display: block;
   line-height: 0;
   box-sizing: border-box;
-  padding: 40px 0 40px;
+  padding: 40px 0 35px;
   margin: 0 auto; }
 
 /* The shadow behind the image */
@@ -289,13 +289,42 @@ img.mfp-img {
   line-height: 18px;
   color: #F3F3F3;
   word-wrap: break-word;
-  padding-right: 36px; }
+  font-size: larger; 
+  background-color: #fff;}
 
 .mfp-image-holder .mfp-content {
-  max-width: 100%; }
+  max-width: 100%; 
+  margin-bottom: 100%;}
 
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
+
+.mfp-description{
+  color:black;
+  padding-top: 1rem;
+  padding-bottom:1rem;
+  line-height: 1.2;
+  font-weight: 300;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+.mfp-buttons{
+  padding-top:1rem;
+  padding-bottom: 0.9rem;
+  background-color: rgb(22, 42, 66);
+}
+
+.mfp-btn{
+  padding-left: 19%;
+  padding-right: 19%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  color: #fff;
+
+}
 
 @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
   /**
@@ -334,7 +363,19 @@ img.mfp-img {
     background: rgba(0, 0, 0, 0.6);
     position: fixed;
     text-align: center;
-    padding: 0; } }
+    padding: 0; } 
+  
+    .mfp-btn{
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: rgb(22, 42, 66);
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+      color: #fff;
+    
+    }
+  
+  }
 
 @media all and (max-width: 900px) {
   .mfp-arrow {
@@ -348,4 +389,16 @@ img.mfp-img {
     transform-origin: 100%; }
   .mfp-container {
     padding-left: 6px;
-    padding-right: 6px; } }
+    padding-right: 6px; } 
+  
+  
+    .mfp-btn{
+      padding-left: 15%;
+      padding-right: 15%;
+      background-color: rgb(22, 42, 66);
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+      color: #fff;
+    
+    }
+  }

@@ -1124,7 +1124,11 @@ var _imgInterval,
 			}
 		}
 		return '';
+
 	};
+
+
+
 
 $.magnificPopup.registerModule('image', {
 
@@ -1136,12 +1140,13 @@ $.magnificPopup.registerModule('image', {
 						'<figcaption>'+
 							'<div class="mfp-bottom-bar">'+
 								'<div class="mfp-title"></div>'+
-								'<div class="mfp-counter"></div>'+
+								/*'<div class="mfp-counter"></div>'+*/
+								'<div class = "mfp-description"></div>' +
 							'</div>'+
 						'</figcaption>'+
 					'</figure>'+
 				'</div>',
-		cursor: 'mfp-zoom-out-cur',
+		/*cursor: 'mfp-zoom-out-cur',*/
 		titleSrc: 'title',
 		verticalFit: true,
 		tError: '<a href="%url%">The image</a> could not be loaded.'

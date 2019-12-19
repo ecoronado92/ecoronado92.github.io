@@ -118,7 +118,7 @@ function js() {
 
 function images() {
   return gulp
-    .src("./img/**/*")
+    .src("./img/*")
     .pipe(gulp.dest("./_site/img"))
     .pipe(browsersync.stream());
 }
@@ -144,4 +144,4 @@ exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
-exports.images = img
+exports.images = img;

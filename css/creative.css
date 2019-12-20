@@ -9815,3 +9815,19 @@ header.masthead h1 {
   font-size: larger;
   padding-bottom: 2rem ;
 }
+
+.name-dot{
+  color:#f4623a; 
+  margin-left: -1rem;
+}
+
+@media (min-width: 450px){
+
+  .social-container {
+    width: 340px;
+  }
+
+  .name-dot{
+    margin-left: -0.5rem;
+  }
+}

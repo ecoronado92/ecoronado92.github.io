@@ -9827,4 +9827,51 @@ header.masthead h1 {
     margin-left: -0.5rem;
   }
 
+  .mb-4, .my-4 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .portfolio-tagline{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .resume-tagline{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .img-fluid {
+    max-width: 83%;
+  }
+
+  #portfolio .container-fluid .portfolio-box{
+    max-width: 400px;
+  }
+
+  .no-gutters {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 0;
+  }
+
+  .no-gutters > .col, .no-gutters > [class*="col-"] {
+    padding-bottom: 15px;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+    font-size: .75rem;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption{
+    margin-left: -9%;
+  }
+
 }

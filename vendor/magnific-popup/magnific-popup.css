@@ -402,3 +402,18 @@ img.mfp-img {
     
     }
   }
+
+
+  @media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    .mfp-description {
+      font-size: 1.0rem;
+      padding-left: 15%;
+      padding-right: 15%;
+  }
+
+  .mfp-btn{
+    font-size: 1.0rem;
+    padding-left: 20%;
+  }
+}

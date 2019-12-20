@@ -208,3 +208,36 @@
     color: #f4623a;
     text-align: center;
 }
+
+@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
+
+    .timeline > li > .timeline-event {
+        width: 100%;
+        float: inherit;
+        padding-left: 28%;
+        text-align: left !important;
+        padding-bottom: 0;
+
+    }
+
+    h4, .h4 {
+        font-size: 1.3em;
+    }
+
+    h5, .h5 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-description {
+        font-size: 1.1rem;
+    }
+
+    .timeline{
+        padding-top: 0;
+    }
+
+    ol, ul, dl {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+}

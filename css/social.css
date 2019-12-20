@@ -56,4 +56,12 @@
 	 -webkit-text-fill-color: transparent;
 	 transition: all 265ms ease-in;
 }
+
+
+@media screen and (max-width: 320px){
+
+	.social-container {
+	  width: 340px;
+	}
+}
  

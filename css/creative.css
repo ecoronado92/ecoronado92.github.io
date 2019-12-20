@@ -9823,12 +9823,8 @@ header.masthead h1 {
 
 @media screen and (max-width: 320px){
 
-  .social-container {
-    width: 340px;
-  }
-
   .name-dot{
     margin-left: -0.5rem;
   }
-  
+
 }

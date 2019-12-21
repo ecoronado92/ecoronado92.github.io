@@ -417,3 +417,15 @@ img.mfp-img {
     padding-left: 20%;
   }
 }
+
+
+/* GALAXY SPECIFIC */
+@media only screen and (min-width: 350px) and 
+(max-width:640px) and
+ (-webkit-min-device-pixel-ratio: 3) {
+  .mfp-btn{
+    font-size: 1.0rem;
+    padding-left: 18%;
+  }
+
+ }

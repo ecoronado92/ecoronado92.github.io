@@ -9843,11 +9843,12 @@ header.masthead h1 {
   }
 
   .img-fluid {
-    max-width: 83%;
+    max-width: 75%;
   }
 
   #portfolio .container-fluid .portfolio-box{
-    max-width: 400px;
+    max-width: 350px;
+    padding-left: 10%;
   }
 
   .no-gutters {
@@ -9858,6 +9859,7 @@ header.masthead h1 {
 
   .no-gutters > .col, .no-gutters > [class*="col-"] {
     padding-bottom: 15px;
+    padding-right: 0;
   }
 
   #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
@@ -9874,4 +9876,16 @@ header.masthead h1 {
     margin-left: -9%;
   }
 
+}
+
+/* GALAXY SPECIFIC */
+@media only screen and (min-width: 350px) and 
+(max-width:640px) and
+ (-webkit-min-device-pixel-ratio: 3) {
+
+  #portfolio .container-fluid .portfolio-box {
+    max-width: 324px;
+    align-content: center;
+    align-items: center;
+    padding-left: 5%;}
 }

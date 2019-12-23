@@ -209,7 +209,9 @@
     text-align: center;
 }
 
-@media only screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen 
+and (min-width: 320px) 
+and (-webkit-min-device-pixel-ratio: 3) {
 
     .timeline > li > .timeline-event {
         width: 100%;
@@ -246,7 +248,7 @@
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
-and (-webkit-min-device-pixel-ratio: 3) {
+and (-webkit-min-device-pixel-ratio: 2) {
 
     .timeline > li > .timeline-event {
         width: 100%;

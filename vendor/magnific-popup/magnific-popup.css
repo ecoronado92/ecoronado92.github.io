@@ -438,5 +438,16 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) 
 and (-webkit-min-device-pixel-ratio: 2) {
 
+  .mfp-description {
+    padding-left: 15%;
+    padding-right: 10%;
+    font-size: medium;
+  }
+
+  .mfp-btn{
+    font-size: medium;
+    padding-left: 20%;
+  }
+ 
 
 }

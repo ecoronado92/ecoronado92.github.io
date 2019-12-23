@@ -253,7 +253,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .timeline > li > .timeline-event {
         width: 100%;
         float: inherit;
-        padding-left: 28%;
+        padding-left: 32%;
         text-align: left !important;
         padding-bottom: 0;
 

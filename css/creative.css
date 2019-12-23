@@ -9953,7 +9953,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
   .no-gutters > .col, .no-gutters > [class*="col-"] {
     padding-bottom: 15px;
-    padding-right: 0;
+    padding-right: 3%;
   }
 
   #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
@@ -9967,7 +9967,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   #portfolio .container-fluid .portfolio-box .portfolio-box-caption{
-    margin-left: -9%;
+    margin-left: -8%;
+
+  }
+
+  #portfolio .container-fluid .portfolio-box{
+    max-width: 330px;
   }
 
   .resume-tagline{

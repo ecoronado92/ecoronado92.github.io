@@ -9920,7 +9920,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
     }
 }
 
-/* Iphone 6/7/8 */
+/* IPhone 6/7/8 */
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) 
@@ -9980,4 +9980,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-right: 7%;
   }
 
+}
+
+
+/* IPhone 6/7/8 Plus*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px){
+  #portfolio .container-fluid .portfolio-box{
+    max-width: 370px;
+  }
 }

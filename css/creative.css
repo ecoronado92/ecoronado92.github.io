@@ -9891,9 +9891,10 @@ header.masthead h1 {
 }
 
 /* GALAXY SPECIFIC */
-@media only screen and (min-width: 350px) and 
-(max-width:640px) and
- (-webkit-min-device-pixel-ratio: 3) {
+@media only screen 
+and (min-width: 350px) 
+and (max-width:640px) 
+and (-webkit-min-device-pixel-ratio: 3) {
 
   #portfolio .container-fluid .portfolio-box {
     max-width: 324px;
@@ -9915,4 +9916,61 @@ header.masthead h1 {
     .img-fluid {
       max-width: 85%;
     }
+}
+
+/* Iphone 6/7/8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+  
+  .name-dot {
+    margin-left: -0.5rem;
+  }
+
+  .mb-4, .my-4 {
+    margin-left: 14%;
+    margin-right: 10%;
+  }
+
+  .portfolio-tagline{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .img-fluid {
+    max-width: 85%;
+  }
+
+  .no-gutters {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 0;
+  }
+
+
+  .no-gutters > .col, .no-gutters > [class*="col-"] {
+    padding-bottom: 15px;
+    padding-right: 0;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+    font-size: .75rem;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption{
+    margin-left: -9%;
+  }
+
+  .resume-tagline{
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
 }

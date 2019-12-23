@@ -420,12 +420,23 @@ img.mfp-img {
 
 
 /* GALAXY SPECIFIC */
-@media only screen and (min-width: 350px) and 
-(max-width:640px) and
- (-webkit-min-device-pixel-ratio: 3) {
+@media only screen 
+and (min-width: 350px) 
+and (max-width:640px) 
+and(-webkit-min-device-pixel-ratio: 3) {
   .mfp-btn{
     font-size: 1.0rem;
     padding-left: 18%;
   }
 
  }
+
+
+ /* Iphone 6/7/8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio: 3) {
+
+
+}

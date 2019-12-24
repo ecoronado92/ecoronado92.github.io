@@ -222,6 +222,10 @@ and (-webkit-min-device-pixel-ratio: 3) {
 
     }
 
+    h3, .h3 {
+        font-size: 1.5em;
+    }
+
     h4, .h4 {
         font-size: 1.3em;
     }
@@ -259,6 +263,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
     }
 
+    h3, .h3 {
+        font-size: 1.5em;
+    }
+
     h4, .h4 {
         font-size: 1.3em;
     }
@@ -280,5 +288,53 @@ and (-webkit-min-device-pixel-ratio: 2) {
         margin-bottom: 0rem;
     }
 
+
+}
+
+
+/* IPhone 6/7/8 Plus*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px){
+
+    .timeline > li > .timeline-event {
+        width: 100%;
+        float: inherit;
+        padding-left: 29%;
+        text-align: left !important;
+        padding-bottom: 0;
+
+    }
+}
+
+/* IPad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+
+    h3, .h3 {
+        font-size: 1.5em;
+    }
+    
+    h4, .h4 {
+        font-size: 1.3em;
+    }
+
+    h5, .h5 {
+        font-size: 1.1rem;
+    }
+
+    .timeline-description {
+        font-size: 1.1rem;
+    }
+
+    .timeline{
+        padding-top: 0;
+    }
+
+    ol, ul, dl {
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
 
 }

@@ -9991,3 +9991,42 @@ and (max-device-width : 736px){
     max-width: 370px;
   }
 }
+
+
+/* IPad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px){
+
+  .name-dot {
+    margin-left: -0.5rem;
+  }
+
+  .no-gutters {
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 0;
+  }
+
+  #portfolio .container-fluid .portfolio-box {
+    position: relative;
+    display: block;
+    max-width: 300px;
+    width: max-content;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+  .portfolio-tagline {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: large;
+  }
+
+  .resume-tagline {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: large;
+  }
+
+}

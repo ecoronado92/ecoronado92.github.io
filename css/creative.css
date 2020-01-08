@@ -9821,6 +9821,10 @@ header.masthead h1 {
   margin-left: -1rem;
 }
 
+.mobile-hide{
+  visibility: hidden;
+}
+
 @media only screen 
 and (min-width: 320px) 
 and (-webkit-min-device-pixel-ratio: 3) {
@@ -9837,6 +9841,7 @@ and (-webkit-min-device-pixel-ratio: 3) {
   .portfolio-tagline{
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 0rem ;
   }
 
   .resume-tagline{
@@ -9890,6 +9895,17 @@ and (-webkit-min-device-pixel-ratio: 3) {
     background-size: cover;
   }
 
+  .img-info{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 2em;
+    
+  }
+
+  .mobile-hide{
+    visibility: visible;
+  }
+
 }
 
 /* GALAXY SPECIFIC */
@@ -9918,6 +9934,17 @@ and (-webkit-min-device-pixel-ratio: 3) {
     .img-fluid {
       max-width: 85%;
     }
+
+    .img-info{
+      text-align: center;
+      font-weight: 300;
+      padding-bottom: 2em;
+      
+    }
+
+    .mobile-hide{
+      visibility: visible;
+    }
 }
 
 /* IPhone 6/7/8 */
@@ -9938,6 +9965,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .portfolio-tagline{
     margin-left: 7%;
     margin-right: 7%;
+    padding-bottom: 2rem ;
   }
 
   .img-fluid {
@@ -9980,6 +10008,21 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-right: 7%;
   }
 
+  .img-info{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 2em;
+    
+  }
+
+  .mobile-hide{
+    visibility: visible;
+  }
+
+  .img-fluid {
+    max-width: 90%;
+  }
+
 }
 
 
@@ -9989,6 +10032,17 @@ and (min-device-width : 414px)
 and (max-device-width : 736px){
   #portfolio .container-fluid .portfolio-box{
     max-width: 370px;
+  }
+
+  .img-info{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 2em;
+    
+  }
+
+  .mobile-hide{
+    visibility: visible;
   }
 }
 
@@ -10021,12 +10075,24 @@ and (max-device-width : 1024px){
     margin-right: 10%;
     margin-left: 10%;
     font-size: large;
+    padding-bottom: 2rem ;
   }
 
   .resume-tagline {
     margin-left: 10%;
     margin-right: 10%;
     font-size: large;
+  }
+
+  .img-info{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 2em;
+    
+  }
+
+  .mobile-hide{
+    visibility: visible;
   }
 
 }

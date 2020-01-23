@@ -9747,6 +9747,18 @@ header.masthead h1 {
 }
 
 /* New stuff */
+
+.reduce-bottom-pad {
+  padding-bottom: 3rem !important;
+}
+
+.resume-btn{
+  padding: 1.25rem 2.25rem !important;
+  color: #212529;
+  border-color: #f4623a !important;
+  border-width: 2px !important;
+}
+
 .prof_pic {
   border-radius: 50%;
   width: 180px;

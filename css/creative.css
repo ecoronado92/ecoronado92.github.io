@@ -9755,8 +9755,14 @@ header.masthead h1 {
 .resume-btn{
   padding: 1.25rem 2.25rem !important;
   color: #212529;
-  border-color: #f4623a !important;
+  border-color: #eb5f39 !important;
   border-width: 2px !important;
+}
+
+.resume-btn:hover {
+  color: #212529;
+  /*background-color: #f24516;*/
+  border-color: #eb5f39;
 }
 
 .prof_pic {

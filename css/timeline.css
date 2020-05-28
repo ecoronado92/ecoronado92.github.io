@@ -146,6 +146,10 @@
     .timeline-body > p + p {
         margin-top: 5px;
     }
+    
+.timeline-panel{
+    background-color: #fff;
+}
 
 @media (max-width: 767px) {
     ul.timeline:before {

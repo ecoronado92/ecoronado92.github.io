@@ -1,0 +1,160 @@
+/*
+    Title: Vertical-Timeline
+    Version: 2.0.0
+    Last Change: 04/30/17
+    Author: Ryan Fitzgerald
+    Repo: https://github.com/RyanFitzgerald/vertical-timeline
+    Issues: https://github.com/RyanFitzgerald/vertical-timeline/issues
+	LICENSE: MIT
+*/
+.vtimeline {
+  position: relative;
+  padding: 30px;
+  overflow: hidden; }
+  .vtimeline:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    background-color: #eeeeee;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+
+.vtimeline-point {
+  position: relative;
+  width: 100%;
+  margin-bottom: 100px; }
+
+.vtimeline-icon {
+  /*position: absolute;
+  top: 10px;
+  height: 25px;
+  width: 25px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 50%;
+  background: #000; */
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color:#6c757d !important;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;}
+
+.vtimeline-block {
+  width: 45%;
+  margin: 0;
+  transition: 0.5s ease all; }
+  .vtimeline-block:after {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #eee;
+    border-right: none; }
+
+.vtimeline-right {
+  margin-left: 55%; }
+  .vtimeline-right.vt-animate-slide .vtimeline-content {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); }
+  .vtimeline-right .vtimeline-date {
+    left: auto;
+    right: 55%; }
+  .vtimeline-right:after {
+    left: auto;
+    right: 45%;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: none;
+    border-right: 10px solid #eee; }
+
+.vtimeline-date {
+  position: absolute;
+  left: 55%;
+  top: 15px; }
+
+.vtimeline-content {
+  background: #eee;
+  transition: 2s ease all; }
+
+.vt-animate-fade {
+  opacity: 0;}
+  
+  .vt-animate-fade-custom{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-timing-function: ease-in;
+    animation-duration: 3.5s;
+  }
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.vt-animate-slide {
+  opacity: 0; }
+  .vt-animate-slide .vtimeline-content {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%); }
+
+
+.vt-noarrows:after {
+  content: none; }
+
+@media only screen and (max-width: 992px) {
+  .vtimeline:before {
+    left: 30px;
+    right: auto;
+    margin: 0; }
+  .vtimeline-icon {
+    left: -25px;
+    right: auto;
+    margin: 0; }
+  .vtimeline-block {
+    width: 85%;
+    margin-left: 15%; }
+    .vtimeline-block:after {
+      left: auto;
+      right: 85%;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: none;
+      border-right: 10px solid #eee; }
+  .vtimeline-date {
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+    right: auto;
+    background-color: #fff !important; }
+  .vtimeline-right .vtimeline-date {
+    right: auto;
+    background-color: #fff !important; }
+  .vtimeline.basic .vtimeline-date {
+    padding: 10px 10px 0 10px; }
+  .vt-animate-slide .vtimeline-content {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%); } }

@@ -30,13 +30,16 @@
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
+  <link rel="stylesheet" type="text/css" href="css/vertical-timeline.css">
+
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
   <link href="css/social.css" rel="stylesheet">
   <link href="css/timeline.css" rel="stylesheet" id="bootstrap-css">
   <link href="css/scroll-button.css" rel ="stylesheet">
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  
 
 
 </head>
@@ -87,6 +90,7 @@
                 <li><a href="https://www.linkedin.com/in/ecoronado/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/ecoronado92" target="_blank"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://twitter.com/ecoronado92" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://medium.com/@eduardo.coronado92" target="_blank"><i class="fab fa-medium-m"></i></a></li>
             </ul>
             </div>
           <!--<p class="text-white-75 font-weight-light mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p> -->
@@ -217,55 +221,50 @@
   <div class="container">
     <h3 class="mt-0 font-weight-light abt-head text-center">Resume</h3>
     <hr class="divider section_title_div">
-    <p class="mb-4 resume-tagline text-center" > <b>Currently finishing my M.S. degree</b> and working as a Graduate Teaching Assistant at Duke University, but here's a bit of what I've done over the last 4-5 years </p>
+    <p class="mb-4 resume-tagline text-center" > <b>Recently obtained my M.S. in Statistical Science</b> from Duke University, and here's a bit of what I've done over the last 4-5 years </p>
 
-
-   <!-- PROFESSIONAL EXPERIENCE -->
-  <div class="professional-exp timeline-section">
-    <h3 class="mt-0 font-weight-bold timeline-section-title ">Professional Experience</h3>
-    <ul class="timeline">
-      <li class="timeline-block">
-        <div class="timeline-badge primary fa fa-briefcase"></i></div>
-        <div class="timeline-event">
-          <h4 class="timeline-event-title">Graduate Teaching Assistant</h4>
-          <h5 class="timeline-dates"> Aug 2018 - present</h5>
-        </div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Duke University</h4>
-            <h6 class ="timeline-title">Durham, NC</h6>
-            <hr class="divider section_title_div timeline_title_div">
-          </div>
-          <div class="timeline-body">
-            <p class = "timeline-description"> Taught <b>introductory statistics and statistical computing</b> courses to undergraduates and graduates <br> (STA 101, STA 110, STA 523) </p>
-            <p class = "timeline-description"> Created <b>computer vision course materials</b> for an Advanced Data Analytics and Applications course at the Fuqua School of Business </p>
-          </div>
-        </div>
-      </li>
-        <li class="timeline-block">
-          <div class="timeline-badge primary fa fa-briefcase"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Forensic Tech Intern (Advisory)</h4>
-            <h5 class="timeline-dates"> Jun 2019 - Aug 2019</h5>
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <div class = "professional-exp timeline-section">
+      <h3 class="mt-0 font-weight-bold timeline-section-title ">Professional Experience</h3>
+      <div id="professional-timeline">
+        <div data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Graduate Teaching Assistant</h4> 
+          <h5 class=&quot;timeline-dates&quot;> Aug 2018 - May 2020</h5>">
+          <div data-vticon="true">
+            <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-briefcase-solid.png">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h4 class="timeline-title">Pricewaterhousecoopers, LLP</h4>
+              <h4 class="timeline-title">Duke University</h4>
+              <h6 class ="timeline-title">Durham, NC</h6>
+              <hr class="divider section_title_div timeline_title_div">
+            </div>
+            <div class="timeline-body">
+              <p class = "timeline-description"> Taught <b>introductory statistics and statistical computing</b> courses to undergraduates and graduates <br> (STA 101, STA 110, STA 523) </p>
+              <p class = "timeline-description"> Created <b>computer vision course materials</b> for an Advanced Data Analytics and Applications course at the Fuqua School of Business </p>
+            </div>
+          </div>
+        </div>
+        <div  data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Forensic Tech Intern (Advisory)</h4> 
+          <h5 class=&quot;timeline-dates&quot;> Jun 2019 - Aug 2019</h5>">
+          <div data-vticon="true">
+            <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-briefcase-solid.png">
+          </div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">PricewaterhouseCoopers, LLP</h4>
               <h6 class ="timeline-title">New York, NY</h6>
               <hr class="divider section_title_div timeline_title_div">
             </div>
             <div class="timeline-body">
               <p class = "timeline-description"> Collaborated with team to <b>analyze and synthesize historical customer data via a clustering algorithm</b> to provide client with customer-segmentation recommendations </p>
               <p class = "timeline-description"> Developed a <b> ML algorithm in R with a Python wrapper</b> to enhanced the classification capabilities of a financial fraud detection tool </p>
-
             </div>
           </div>
-        </li>
-        <li class="timeline-block">
-          <div class="timeline-badge primary fa fa-briefcase"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Global Associate Product Manager</h4>
-            <h5 class="timeline-dates"> Jan 2018 - Jul 2018</h5>
+        </div>
+        <div  data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Global Associate Product Manager</h4> 
+          <h5 class=&quot;timeline-dates&quot;> Jan 2018 - Jul 2018</h5>">
+          <div data-vticon="true">
+            <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-briefcase-solid.png">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -279,12 +278,11 @@
               <p class = "timeline-description"> <b> Personally built </b> and co-designed the company’s first BizOps infrastructure & web-store  <b>within a tight deadline (two months)</b> linking over four sales/marketing platforms </p>
             </div>
           </div>
-        </li>
-        <li class="timeline-block">
-          <div class="timeline-badge primary fa fa-briefcase"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Associate Product Manager</h4>
-            <h5 class="timeline-dates"> May 2016 - Jan 2018</h5>
+        </div>
+        <div  data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;> Associate Product Manager</h4> 
+          <h5 class=&quot;timeline-dates&quot;> May 2016 - Jan 2018</h5>">
+          <div data-vticon="true">
+            <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-briefcase-solid.png">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -293,17 +291,16 @@
               <hr class="divider section_title_div timeline_title_div">
             </div>
             <div class="timeline-body">
-              <p class = "timeline-description"> <b>Created and mananaged product requirements</b> for <br> <a href="https://www.arcbio.com/gps/"> Galileo Pathogen Solution </a>, a genomics infectious disease diagnostic based on market research and KOL interviews </p>
+              <p class = "timeline-description"> <b>Created and mananaged product requirements</b> for <br> <a href="https://arcbio.com/galileo-virome/"> Galileo Virome </a>, a genomics infectious disease diagnostic based on market research and KOL interviews </p>
               <p class = "timeline-description">  <b> Actively worked with bi-coastal development team </b> to ensure the product met customer, medical, and regulatory needs </p>
               <p class = "timeline-description">  <b>Developed Python scripts to showcase core technology’s value to classify antimicrobrial DNA, </b> prompting leadership to strategically shift outside the initial cancer target market  </p>
             </div>
           </div>
-        </li>
-        <li class="timeline-block">
-          <div class="timeline-badge primary fa fa-briefcase"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Junior Bioinformatician <br>Founding Scientist</h4>
-            <h5 class="timeline-dates"> Aug 2015 - May 2016</h5>
+        </div>
+        <div  data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;> Junior Bioinformatician</h4> 
+          <h5 class=&quot;timeline-dates&quot;> Aug 2015 - May 2016</h5>">
+          <div data-vticon="true">
+            <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-briefcase-solid.png">
           </div>
           <div class="timeline-panel">
             <div class="timeline-heading">
@@ -317,122 +314,138 @@
               <p class = "timeline-description"> <b>Developed Python scripts to tune a proprietary machine learning model's parameters</b> via ROC curves to ensure greater than 95% precision in predictions</p>
             </div>
           </div>
-        </li>
-    </ul>
-  </div>
+        </div>
+      </div>
+    </div>
+
   
   <!-- RESEARCH/LEADERSHIP EXPERIENCE -->
   <div class="research timeline-section">
     <h3 class="mt-0 font-weight-bold timeline-section-title ">Research / Leadership Experience</h3>
-    <ul class="timeline">
-        <li class="timeline-block">
-          <div class="timeline-badge primary fas fa-microscope"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Undergrad Research Assistant</h4>
-            <h5 class="timeline-dates"> Jun 2013 - Jun 2015</h5>
+    <div id="research-timeline">
+      <div data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Undergrad Research Assistant</h4> 
+        <h5 class=&quot;timeline-dates&quot;> Jun 2013 - Jun 2015</h5>">
+        <div data-vticon="true">
+          <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-microscope-solid.png">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Harvard Medical School (Sinclair Lab)</h4>
+            <h6 class ="timeline-title">Boston, MA</h6>
+            <hr class="divider section_title_div timeline_title_div">
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Harvard Medical School (Sinclair Lab)</h4>
-              <h6 class ="timeline-title">Boston, MA</h6>
-              <hr class="divider section_title_div timeline_title_div">
-            </div>
-            <div class="timeline-body">  
-              <p class = "timeline-description"> <b>Automated data collection and tidying processes</b> of 1000s of genomic records (file sizes >50Gb) with <b>workflows in a high performance computing environment</b> to generate train/test sets 5x faster <br>for an ML algorithm </p>
-              <p class = "timeline-description"><b>Developed a predictive model in MATLAB</b>  to classify novel protein-encoding regions (95% C.I.) in the Human genome </p>
-            </div>
+          <div class="timeline-body">  
+            <p class = "timeline-description"> <b>Automated data collection and tidying processes</b> of 1000s of genomic records (file sizes >50Gb) with <b>workflows in a high performance computing environment</b> to generate train/test sets 5x faster <br>for an ML algorithm </p>
+            <p class = "timeline-description"><b>Developed a predictive model in MATLAB</b>  to classify novel protein-encoding regions (95% C.I.) in the Human genome </p>
           </div>
-        </li>
-        <li class="timeline-block">
-          <div class="timeline-badge primary fas fa-seedling"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Director of Tech Services <br> Co-founder </h4>
-            <h5 class="timeline-dates"> Oct 2012 - May 2015</h5>
+        </div>
+      </div>
+      <div data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Director of Tech Services <br> Co-founder </h4> 
+        <h5 class=&quot;timeline-dates&quot;> Oct 2012 - May 2015</h5>">
+        <div data-vticon="true">
+          <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-seedling-solid.png">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Boston University Venture Accelerator</h4>
+            <h6 class ="timeline-title">Boston, MA</h6>
+            <hr class="divider section_title_div timeline_title_div">
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Boston University Venture Accelerator</h4>
-              <h6 class ="timeline-title">Boston, MA</h6>
-              <hr class="divider section_title_div timeline_title_div">
-            </div>
-            <div class="timeline-body">
-              <p class = "timeline-description"><b>Co-led a student-run program that helped develop over 20 early-stage ideas feasible prototypes</b>, some of which were successfully funded by larger incubator programs such as MassChallenge </p>
-            </div>
+          <div class="timeline-body">
+            <p class = "timeline-description"><b>Co-led a student-run program that helped develop over 20 early-stage ideas feasible prototypes</b>, some of which were successfully funded by larger incubator programs such as MassChallenge </p>
           </div>
-        </li>
-    </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- EDUCATION -->
   <div class="education timeline-section">
     <h3 class="mt-0 font-weight-bold timeline-section-title ">Education</h3>
-    <ul class="timeline">
-        <li class="timeline-block">
-          <div class="timeline-badge primary fa fa-graduation-cap"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Duke University</h4>
-            <h5 class="timeline-dates"> Aug 2018 - present</h5>
+    <div id="education-timeline">
+      <div data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Duke University</h4> 
+        <h5 class=&quot;timeline-dates&quot;> Aug 2018 - May 2020</h5>">
+        <div data-vticon="true">
+          <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-graduation-cap-solid.png">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">M.S., Statistical Science</h4>
+            <h6 class ="timeline-title">GPA: 3.74</h6>
+            <hr class="divider section_title_div timeline_title_div">
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">M.S., Statistical Sciences</h4>
-              <h6 class ="timeline-title">GPA: 3.67</h6>
-              <hr class="divider section_title_div timeline_title_div">
-            </div>
-            <div class="timeline-body">
-              <p class = "timeline-subtitle"> Relevant courses - </p>  
-              <p class = "timeline-description">Predictive and Hierarchical Modeling, <br>Advanced Stochastic Modeling, Machine Learning, Probabilistic Machine Learning, Statistical Computation, Bayesian and Modern Statistics, High Dimensional Data Analysis</p>
-            </div>
+          <div class="timeline-body">
+            <p class = "timeline-subtitle"> Relevant courses - </p>  
+            <p class = "timeline-description">Predictive and Hierarchical Modeling, <br>Advanced Stochastic Modeling, Machine Learning, Probabilistic Machine Learning, Statistical Computation, Bayesian and Modern Statistics, High Dimensional Data Analysis</p>
           </div>
-        </li>
-        <li class="timeline-block">
-          <div class="timeline-badge primary fa fa-graduation-cap"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Boston University </h4>
-            <h5 class="timeline-dates"> Sept 2011 - May 2015</h5>
+        </div>
+      </div>
+      <div data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Boston University </h4> 
+        <h5 class=&quot;timeline-dates&quot;> Sept 2011 - May 2015</h5>">
+        <div data-vticon="true">
+          <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-graduation-cap-solid.png">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">B.S., Biomedical Engineering</h4>
+            <h6 class ="timeline-title">Magna Cum Laude (GPA: 3.65), Concentration in Nanotech </h6>
+            <hr class="divider section_title_div timeline_title_div">
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">B.S., Biomedical Engineering</h4>
-              <h6 class ="timeline-title">Magna Cum Laude, Concentration in Nanotech </h6>
-              <hr class="divider section_title_div timeline_title_div">
-            </div>
-            <div class="timeline-body">
-              <p class = "timeline-subtitle"> Relevant courses - </p>  
-              <p class = "timeline-description">Signals and Systems, Control Systems, <br> Molecular Bioengineering, Systems Biology of Disease, Systems Physiology, Product Innovation & Design, Business Innovation,  Nanomaterials/-technology, Nanomedicine </p>
-            </div>
+          <div class="timeline-body">
+            <p class = "timeline-subtitle"> Relevant courses - </p>  
+            <p class = "timeline-description">Signals and Systems, Control Systems, <br> Molecular Bioengineering, Systems Biology of Disease, Systems Physiology, Product Innovation & Design, Business Innovation,  Nanomaterials/-technology, Nanomedicine </p>
           </div>
-        </li>
-    </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!-- PATENTS -->
   <div class="patents timeline-section">
     <h3 class="mt-0 font-weight-bold timeline-section-title ">Patents</h3>
-    <ul class="timeline">
-        <li class="timeline-block">
-          <div class="timeline-badge primary fa fa-file-alt"></i></div>
-          <div class="timeline-event">
-            <h4 class="timeline-event-title">Arc Bio, LLC</h4>
-            <h5 class="timeline-dates"> Published 2017</h5>
+    <div id="patents-timeline">
+      <div data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Arc Bio, LLC</h4> 
+        <h5 class=&quot;timeline-dates&quot;> Published 2017</h5>">
+        <div data-vticon="true">
+          <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-file-alt-solid.png">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">Systems and methods for genome analysis</h4>
+            <hr class="divider section_title_div timeline_title_div">
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Systems and methods for genome analysis</h4>
-              <hr class="divider section_title_div timeline_title_div">
-            </div>
-            <div class="timeline-body"> 
-              <p class = "timeline-description">Quiroz Zárate, Alejandro. Olivares-Amaya, Roberto. <br>Watson Jr., Thomas J. van Aggelen, Helen C.
-                <br><b>Coronado Sroka, Eduardo.</b> Angulo Sermeño, Carlos A. Fimbres Jurado, Fernando. Solis Garcia-Inda, Abraham. Fontove Herrera, Fernando. 2016. <i>Systems and methods for genomic analysis.</i> </p>
-            </div>
+          <div class="timeline-body"> 
+            <p class = "timeline-description">Quiroz Zárate, Alejandro. Olivares-Amaya, Roberto. <br>Watson Jr., Thomas J. van Aggelen, Helen C.
+              <br><b>Coronado Sroka, Eduardo.</b> Angulo Sermeño, Carlos A. Fimbres Jurado, Fernando. Solis Garcia-Inda, Abraham. Fontove Herrera, Fernando. 2016. <i>Systems and methods for genomic analysis.</i> </p>
           </div>
-        </li>
-    </ul>
+        </div>
+      </div>
+    </div>
   </div>
+
    <!-- AWARDS -->
    <div class="awards timeline-section">
     <h3 class="mt-0 font-weight-bold timeline-section-title ">Awards</h3>
-    <ul class="timeline">
+    <div id="awards-timeline">
+      <div data-vtside="right" data-vtdate="<h4 class=&quot;timeline-event-title&quot;>Big Data Health Science </br> Case Competition</h4> 
+        <h5 class=&quot;timeline-dates&quot;> Feb 2020</h5>">
+        <div data-vticon="true">
+          <img style="width:50%; height:50%; vertical-align: text-top;" src="img/fa-award-solid.png">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">First Place</h4>
+            <hr class="divider section_title_div timeline_title_div">
+          </div>
+          <div class="timeline-body"> 
+            <p class = "timeline-description"> Competed and won the <a href="https://bigdata.sc.edu/news/uofsc-big-data-health-science-student-case-competition/" target="_blank"> 2020 Big Data Health Science Case Competition </a> hosted by the University of South Carolina. Our team developed an analytic tool focused on mitigating the human and financial cost of chemical spill related accidents </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <ul class="timeline">
         <li class="timeline-block">
           <div class="timeline-badge primary fas fa-award"></i></div>
           <div class="timeline-event">
@@ -449,9 +462,10 @@
             </div>
           </div>
         </li>
-    </ul>
+    </ul>-->
   </div>
-</div>
+</div> <!-- End of seciton-->
+
 </section>
 <div class=" col-lg-8 align-items-center justify-content-center text-center git-btn">
   <a class="btn btn-primary btn-xl resume-btn" href="resume/Resume_EduardoC_01222020.pdf" target="_blank"> DOWNLOAD RESUME</a>
@@ -501,6 +515,10 @@
   <!--<script src="js/creative.min.js"></script> -->
   <script src="js/creative.js"></script>
   <script src="js/scroll-top-button.js" ></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script src="js/vertical-timeline.min.js"></script>
+  <script src="js/script.js" ></script>
 
 </body>
 

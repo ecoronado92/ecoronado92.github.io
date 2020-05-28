@@ -16,7 +16,7 @@
     position: absolute;
     height: 100%;
     width: 3px;
-    background-color: #eeeeee;
+    background-color: #fff;
     top: 0;
     bottom: 0;
     left: 0;
@@ -142,7 +142,7 @@
       border-top: 10px solid transparent;
       border-bottom: 10px solid transparent;
       border-left: none;
-      border-right: 10px solid #eee; }
+      border-right: 10px solid #fff; }
   .vtimeline-date {
     position: relative;
     display: block;

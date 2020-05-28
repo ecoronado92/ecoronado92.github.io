@@ -68,7 +68,7 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 10px solid #eee;
+    border-left: 10px solid #fff;
     border-right: none; }
 
 .vtimeline-right {
@@ -85,7 +85,7 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: none;
-    border-right: 10px solid #eee; }
+    border-right: 10px solid #fff; }
 
 .vtimeline-date {
   position: absolute;
@@ -93,7 +93,7 @@
   top: 15px; }
 
 .vtimeline-content {
-  background: #eee;
+  background: #fff;
   transition: 2s ease all; }
 
 .vt-animate-fade {
